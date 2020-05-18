@@ -1,0 +1,6 @@
+Estimado %{prospect},
+
+Gracias por ver nuestro producto, %{productName}! Siéntase libre de revisar el software yendo a %{downloadLink} para descargar una copia gratuita.
+
+Saludos cordiales,
+%{salesTeam}

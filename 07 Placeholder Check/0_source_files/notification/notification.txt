@@ -1,0 +1,6 @@
+Dear %{userName},
+
+A reminder that you have %{numDaysRemaining} days remaining until the end of your trial period. Please register for an %{newAccount} here.
+
+Sincerely,
+%{managerName}

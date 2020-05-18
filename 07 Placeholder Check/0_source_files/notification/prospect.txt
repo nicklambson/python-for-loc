@@ -1,0 +1,6 @@
+Dear %{prospect},
+
+Thanks for checking out our product, %{productName}! Feel free to check out the software by going to %{downloadLink} to download a free copy.
+
+Kind regards,
+%{salesTeam}

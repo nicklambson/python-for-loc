@@ -1,0 +1,6 @@
+亲爱的 ％{user}，
+
+我们希望您享受 ％{productName}的许可。 请拨打 ％{phoneNum}给我们打电话，并向我们提供反馈。
+
+此致
+％{CustomerService}

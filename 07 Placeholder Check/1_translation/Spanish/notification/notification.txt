@@ -1,0 +1,6 @@
+Estimado %{userName},
+
+Un recordatorio de que tiene %{numAccount} días restantes hasta el final de su período de prueba. Por favor regístrese para obtener un %{newDaysRemaining} aquí.
+
+Sinceramente,
+%{managerName}

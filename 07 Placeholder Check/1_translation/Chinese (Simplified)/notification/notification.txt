@@ -1,0 +1,6 @@
+亲爱的 ％{userName}，
+
+提醒您在试用期结束前剩余 ％{numDaysRemaining}天。 请在这里注册 ％{newAccount}。
+
+此致
+％{managerName}

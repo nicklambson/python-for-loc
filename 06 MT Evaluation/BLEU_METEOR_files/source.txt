@@ -1,0 +1,25 @@
+At this stage you are using documented processes to capture transactional workforce data (things like headcount, turnover, and breakdown of permanent or contract employees) that is clean and connected, working towards a single source of truth.
+Ultimately, however, reports have limited inherent meaning until you aggregate, segment or analyze patterns within the data.
+Some organizations are just getting started and need help mastering reporting or gathering all of their data in one place.  
+“To sit back and to see a full year of data, to look at that information on a monthly basis to see what we are doing, to look at it collectively – the HR, payroll, benefits, and LMS teams – and see the volume of what is actually going through our system is very impressive.”
+What’s possible?
+Descriptive data tells you more about what’s happening.
+It makes basic report data easier to understand and visualize, so you can monitor key metrics and trends and gain a deeper understanding of what the data means, identifying any issues you need to address.
+Benchmarking data helps to give you context (by geography, industry, company size and so on) at the descriptive stage.
+But if you’re new to benchmarking, it can be hard to know what kind of data you need, and where to get it.
+Many HR professionals will be familiar with compensation survey data, but this is often dated information – and it’s self-reported, of course, so its integrity isn’t always guaranteed. 
+Workforce decisions are often swayed by emotion and guesswork.
+This is especially true in scenarios such as compensation requests, when it can be extremely difficult for managers to objectively judge a salary request against a specific role, and the value it creates for the organization.
+You need real, transactional pay and HR data of a volume, variety and velocity that can give you confidence in your analysis. For more on this, take a look at the section on using benchmarking data in Step 1: Investigate Benchmarking.
+A leading transportation organization’s payroll and HR team was receiving a large number of salary requests from their transit hub management team.
+The team wanted to evaluate these compensation requests with the right contextual data.
+When you’re setting salaries, it pays to get as local as possible with your competitive analysis:
+Compensation for a role in upstate New York can vary greatly from the same role in the Manhattan metro area. 
+Anonymized benchmarking data, segmented by local region, can help managers make these calls, with the facts to back up their decisions.
+By taking advantage of extensive benchmarking data about workers in similar roles, functions, industry and regions, the transportation company’s managers are now able to bring objectivity to their judgements on salary. 
+With a clearer view of the real-world value of a position, they can ensure their compensation discussions are backed up by knowledge of industry standards.
+What’s possible?
+You can use historical data to anticipate what’s likely to happen (things like employee turnover, customer purchase, and inbound contact center traffic) – and then use these insights as part of your decision-making process.
+line 24 is very different
+second to last sentence mostly the same
+last sentence exactly the same

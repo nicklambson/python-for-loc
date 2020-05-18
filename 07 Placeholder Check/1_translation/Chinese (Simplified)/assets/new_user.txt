@@ -1,0 +1,6 @@
+亲爱的 ％{newUser}，
+
+感谢您与我们一起注册 ％{accountType}！ 您的登录凭据是 ％{loginCredentials}。
+
+此致
+％{AccountManager}

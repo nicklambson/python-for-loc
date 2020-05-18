@@ -1,0 +1,6 @@
+Уважаемый %{newUser},
+
+Спасибо, что подписались на %{accountType} с нами! Ваши учетные данные для входа - %{loginCredentials}.
+
+С уважением,
+%{AccountManager}

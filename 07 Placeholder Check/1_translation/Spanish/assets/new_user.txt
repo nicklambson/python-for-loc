@@ -1,0 +1,6 @@
+Estimado %{newUser},
+
+¡Gracias por registrarte en un %{accountType} con nosotros! Sus credenciales de inicio de sesión son %[loginCredentials].
+
+Sinceramente,
+%{accountManager}

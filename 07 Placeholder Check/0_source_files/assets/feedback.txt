@@ -1,0 +1,6 @@
+Dear %{user},
+
+We hope you are enjoying your license of %{productName}. Please give us a call at %{phoneNum} and give us your feedback.
+
+Sincerely,
+%{customerService}

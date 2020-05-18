@@ -1,0 +1,6 @@
+Estimado %{usario},
+
+Esperamos que esté disfrutando de su licencia de %{productName}. Por favor llámenos al %{phoneNum} y envíenos sus comentarios.
+
+Sinceramente,
+%{customerService}

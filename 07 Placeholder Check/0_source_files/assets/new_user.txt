@@ -1,0 +1,6 @@
+Dear %{newUser},
+
+Thanks for signing up for an %{accountType} with us! Your login credentials are %{loginCredentials}.
+
+Sincerely,
+%{accountManager}

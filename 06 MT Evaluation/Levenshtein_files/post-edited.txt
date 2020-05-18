@@ -1,0 +1,25 @@
+En esta etapa, está utilizando procesos documentados para capturar datos transaccionales de la fuerza laboral (cosas como personal, rotación y desglose de empleados permanentes o contratados) que están limpios y conectados, trabajando hacia una única fuente de verdad.
+Sin embargo, en última instancia, los informes tienen un significado inherente limitado hasta que agregue, segmente o analice patrones dentro de los datos.
+Algunas organizaciones recién comienzan y necesitan ayuda para dominar los informes o recopilar todos sus datos en un solo lugar.
+"Para sentarse y ver un año completo de datos, ver esa información mensualmente para ver lo que estamos haciendo, verlo colectivamente (los equipos de recursos humanos, nómina, beneficios y LMS) y ver el volumen de lo que realmente está pasando por nuestro sistema es muy impresionante ".
+¿Qué es posible?
+Los datos descriptivos le brindan más información sobre lo que está sucediendo.
+Hace que los datos de informes básicos sean más fáciles de entender y visualizar, por lo que puede monitorear métricas y tendencias clave y obtener una comprensión más profunda de lo que significan los datos, identificando cualquier problema que necesite abordar.
+Los datos de evaluación comparativa ayudan a darle contexto (por geografía, industria, tamaño de la empresa, etc.) en la etapa descriptiva.
+Pero si eres nuevo en la evaluación comparativa, puede ser difícil saber qué tipo de datos necesitas y dónde obtenerlos.
+Muchos profesionales de RR. HH. Estarán familiarizados con los datos de las encuestas de compensación, pero a menudo se trata de información fechada y, por supuesto, se autoinforma, por lo que su integridad no siempre está garantizada.
+Las decisiones de la fuerza laboral a menudo se ven influidas por la emoción y las conjeturas.
+Esto es especialmente cierto en escenarios como las solicitudes de compensación, cuando puede ser extremadamente difícil para los gerentes juzgar objetivamente una solicitud de salario contra un rol específico y el valor que crea para la organización.
+Necesita datos reales de pago transaccional y de recursos humanos de un volumen, variedad y velocidad que puedan darle confianza en su análisis. Para obtener más información al respecto, consulte la sección sobre el uso de datos de evaluación comparativa en el Paso 1: Investigar la evaluación comparativa.
+El equipo de nóminas y recursos humanos de una organización de transporte líder estaba recibiendo una gran cantidad de solicitudes de salario de su equipo de gestión del centro de tránsito.
+El equipo quería evaluar estas solicitudes de compensación con los datos contextuales correctos.
+Cuando establece salarios, vale la pena ser lo más local posible con su análisis competitivo:
+La compensación por un papel en el norte del estado de Nueva York puede variar mucho del mismo papel en el área metropolitana de Manhattan.
+Los datos anónimos de evaluación comparativa, segmentados por región local, pueden ayudar a los gerentes a hacer estas llamadas, con los hechos para respaldar sus decisiones.
+Al aprovechar los amplios datos de evaluación comparativa sobre los trabajadores en roles, funciones, industria y regiones similares, los gerentes de la compañía de transporte ahora pueden aportar objetividad a sus juicios sobre el salario.
+Con una visión más clara del valor de una posición en el mundo real, pueden garantizar que sus debates sobre compensación estén respaldados por el conocimiento de los estándares de la industria.
+¿Qué es posible?
+Puede usar datos históricos para anticipar lo que es probable que suceda (cosas como la rotación de empleados, la compra de clientes y el tráfico entrante del centro de contacto), y luego usar estos conocimientos como parte de su proceso de toma de decisiones.
+line 24 is very different
+second to last sentence mostly the same
+last sentence exactly the same

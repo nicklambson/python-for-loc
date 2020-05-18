@@ -1,0 +1,7 @@
+亲爱的 ％{prospect}，
+
+感谢您查看我们的产品，％{productName}！ 您可以访问 ％{downloadLink}下载免费副本，随时查看该软件。
+
+亲切的问候，
+％{salesTeam}
+
