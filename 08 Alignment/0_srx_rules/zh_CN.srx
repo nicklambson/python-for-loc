@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE srx PUBLIC "-//SRX//DTD SRX//EN" "srx.dtd">
+<!--CREATOR:MEMOQ--><!--SRXTYPE:OPTIMIZED-->
+<srx version="1.0">
+<header segmentsubflows="yes">
+	<formathandle type="start" include="no" />
+	<formathandle type="end" include="yes" />
+	<formathandle type="isolated" include="yes" />
+</header>
+<body>
+<languagerules>
+<languagerule languagerulename="Chinese (PRC)">
+	<rule break="no">
+		<beforebreak>(\.|\?|\!|\:|。|．|：|？|！)</beforebreak>
+		<afterbreak>("|'|\)|）|」|］|〉|》|】)</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>(\.|\?|\!|\:|。|．|：|？|！)</beforebreak>
+		<afterbreak>\p{Po}</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>(et al\.|http\:|a\.m\.|al\.|approx\.|Approx\.|Art\.|B\.F\.|Bldg\.|Brig\.|Bs\.|C\.|c\. f\.|C\.A\.|C\.E\.O\.|C\.F\.O\.|C\.P\.A\.|C\.V\.|ca\.|Ca\.|cap\.|Capt\.|cf\.|Cia\.|Cmnd\.|co\.|Co\.|Col\.|Corp\.|CU\. FT\.|cu\. ft\.|CU\. IN\.|cu\. in\.|CU\.FT\.|cu\.ft\.|CU\.IN\.|cu\.in\.|D\.|D\.C\.|Dept\.|Dr\.|e\. g\.|e\.g\.|ed\.|Ed\.|Eds\.|Eg\.|eg\.|Elec\.|Esq\.|Ext\.|fig\.|Fig\.|Figs\.|figs\.|Ft\.|Gen\.|govt\.|Govt\.|Hon\.|H\.O\.P\.|I\.|i\. e\.|I\.D\.|i\.e\.|Id\.|Ie\.|ie\.|II\.|III\.|Inc\.|incl\.|Incl\.|IV\.|IX\.|J\. P\.|J\.P\.|Jr\.|lb\.|lbs\.|LB\.|Lt\.|Ltd\.|Ltda\.|M\.D\.|Maj\.|Messrs\.|min\.|Mr\.|Mrs\.|Ms\.|Mt\.|no\.|No\.|Nos\.|NYSE\:|OZ\.|oz\.|p\.|P\.|p\.m\.|P\.O\.|par\.|para\.|pars\.|PC\.|pc\.|Ph\.D\.|pp\.|Pres\.|Prof\.|pt\.|PT\.|QT\.|qt\.|qtd\.|Reg\.|reg\.|Rep\.|Rev\.|Revd\.|S\.A\.|S\.R\.L\.|S\.|Sen\.|Sgt\.|Sq\.|sq\. ft\.|SQ\. FT\.|sq\.ft\.|SQ\.FT\.|Sr\.|St\.|U\. S\.|U\. S\.|U\.K\.|U\.N\.|U\.S\.|U\.S\.A\.|V\.|v\.|V\.|V\.P\.|VI\.|VII\.|VIII\.|ver\.|viz\.|Viz\.|vol\.|Vol\.|vols\.|Vols\.|vs\.|X\.|Yd\.|yd\.|Yds\.|yds\.)</beforebreak>
+		<afterbreak />
+	</rule>
+	<rule break="no">
+		<beforebreak>\d(\.|\?|\!|\:|。|．|：|？|！)</beforebreak>
+		<afterbreak>[^\s]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>(\.|\?|\!|\:|。|．|：|？|！)</beforebreak>
+		<afterbreak>\p{Ll}</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>[\.\:\?\!]</beforebreak>
+		<afterbreak>(\p{Lu}|\d)</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:|。|．|：|？|！)</beforebreak>
+		<afterbreak />
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:|。|．|：|？|！)("|'|\)|）|」|］|〉|》|】)</beforebreak>
+		<afterbreak />
+	</rule>
+</languagerule>
+</languagerules>
+<maprules>
+	<maprule maprulename="Default">
+		<languagemap languagepattern="zh-CN.*" languagerulename="Chinese (PRC)" />
+</maprule>
+</maprules>
+</body>
+</srx>

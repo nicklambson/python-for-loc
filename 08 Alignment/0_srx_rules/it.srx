@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE srx PUBLIC "-//SRX//DTD SRX//EN" "srx.dtd">
+<!--CREATOR:MEMOQ--><!--SRXTYPE:OPTIMIZED-->
+<srx version="1.0">
+<header segmentsubflows="yes">
+	<formathandle type="start" include="no" />
+	<formathandle type="end" include="yes" />
+	<formathandle type="isolated" include="yes" />
+</header>
+<body>
+<languagerules>
+<languagerule languagerulename="Italian">
+	<rule break="no">
+		<beforebreak>\b(\p{Lu}|\p{Ll})\.</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(a\.|a\.C\.|A\.O\.|A\.O\.U\.|abbr\.|accr\.|aer\.|aff\.|agg\.|Ago\.|agr\.|All\.|all'art\.|all'Art\.|amer\.|Amm\.|anat\.|ant\.|antic\.|antiquar\.|App\.|Apr\.|ar\.|arch\.|archeol\.|art\.|Art\.|art\.|artig\.|Artt\.|artt\.|ass\.|astrol\.|atron\.|austral\.|aw\.|Aw\.|aw\.|Aw\.|aw\.|B\.|babil\.|biol\.|bot\.|bret\.|c\.a\.p\.|C\.A\.P\.|c\.a\.p\.|C\.A\.P\.|ca\.|Ca\.|ca\.|Ca\.|Cap\.|Card\.|celt\.|cfr\.|chim\.|chir\.|Cil\.|cin\.|cit\.|Cod\.|com\.|comm\.|Comm\.|comm\.|Comm\.|compl\.|concl\.|cond\.|cong\.|congv\.|cons\.|Coop\.|corr\.|corrisp\.|cuc\.|d\.C\.|D\.L\.|D\.M\.|D\.P\.G\.R\.|dan\.|dell'art\.|dell'Art\.|dell'art\.|deriv\.|Dic\.|dim\.|dir\.|Dir\.|dispr\.|Dott\.|dott\.|Dr\.|dr\.|ecc\.|eccl\.|econ\.|ed\.|edil\.|egiz\.|es\.|escl\.|esq\.|et|etc\.|euf\.|eur\.|f\.|fam\.|Feb\.|fig\.|filos\.|fis\.|fl\.|fr\.|G\.C\.P\.|Gen\.|germ\.|giapp\.|giorn\.|Giu\.|got\.|gr\.|gramm\.|I\:|ibid\.|id\.|imperat\.|imperf\.|impers\.|Ind\.|inf\.|Ing\.|ingl\.|interr\.|intr\.|irl\.|isl\.|it\.|L\.|L\.R\.|lat\.|Lgs\.|Lug\.|m\.|Mag\.|mar\.|mat\.|max\.|mecc\.|med\.|mil\.|min\.|Mons\.|mus\.|N\.|n\.|N\.|n\.|neg\.|neol\.|norm\.|norv\.|Nov\.|nt\.|nucl\.|ogg\.|ol\.|omon\.|On\.|ON\.|orient\.|OTT\.|Ott\.|pass\.|pl\.|pol\.|pop\.|port\.|pos\.|pr\.|prep\.|Pres\.|Prof\.|PROF\.|prop\.|prot\.|psicol\.|pt\.|q\.c\.|Q\.c\.|q\.c\.|Q\.c\.|qc\.|Qc\.|qc\.|Qc\.|Rag\.|rag\.|reg\.|Reg\.|relig\.|Rev\.|rum\.|S\.|S\.E\.|S\.p\.a\.|S\.p\.A\.|S\.r\.l\.|scad\.|scient\.|sec\.|Set\.|Sig\.|sig\.|sin\.|sing\.|sl\.|slov\.|sociol\.|sogg\.|sost\.|sp\.|st\.|stat\.|sved\.|Tav\.|ted\.|trad\.|U\.O\.|ungh\.|V\.|V\:|ver\.|Ver\.|vers\.|Vers\.|volg\.|Z\.I\.|Z\.l\.|zool\.)</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(\p{Lu}|\p{Ll})\.</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(a\.|a\.C\.|A\.O\.|A\.O\.U\.|abbr\.|accr\.|aer\.|aff\.|agg\.|Ago\.|agr\.|All\.|all'art\.|all'Art\.|amer\.|Amm\.|anat\.|ant\.|antic\.|antiquar\.|App\.|Apr\.|ar\.|arch\.|archeol\.|art\.|Art\.|art\.|artig\.|Artt\.|artt\.|ass\.|astrol\.|atron\.|austral\.|aw\.|Aw\.|aw\.|Aw\.|aw\.|B\.|babil\.|biol\.|bot\.|bret\.|c\.a\.p\.|C\.A\.P\.|c\.a\.p\.|C\.A\.P\.|ca\.|Ca\.|ca\.|Ca\.|Cap\.|Card\.|celt\.|cfr\.|chim\.|chir\.|Cil\.|cin\.|cit\.|Cod\.|com\.|comm\.|Comm\.|comm\.|Comm\.|compl\.|concl\.|cond\.|cong\.|congv\.|cons\.|Coop\.|corr\.|corrisp\.|cuc\.|d\.C\.|D\.L\.|D\.M\.|D\.P\.G\.R\.|dan\.|dell'art\.|dell'Art\.|dell'art\.|deriv\.|Dic\.|dim\.|dir\.|Dir\.|dispr\.|Dott\.|dott\.|Dr\.|dr\.|ecc\.|eccl\.|econ\.|ed\.|edil\.|egiz\.|es\.|escl\.|esq\.|et|etc\.|euf\.|eur\.|f\.|fam\.|Feb\.|fig\.|filos\.|fis\.|fl\.|fr\.|G\.C\.P\.|Gen\.|germ\.|giapp\.|giorn\.|Giu\.|got\.|gr\.|gramm\.|I\:|ibid\.|id\.|imperat\.|imperf\.|impers\.|Ind\.|inf\.|Ing\.|ingl\.|interr\.|intr\.|irl\.|isl\.|it\.|L\.|L\.R\.|lat\.|Lgs\.|Lug\.|m\.|Mag\.|mar\.|mat\.|max\.|mecc\.|med\.|mil\.|min\.|Mons\.|mus\.|N\.|n\.|N\.|n\.|neg\.|neol\.|norm\.|norv\.|Nov\.|nt\.|nucl\.|ogg\.|ol\.|omon\.|On\.|ON\.|orient\.|OTT\.|Ott\.|pass\.|pl\.|pol\.|pop\.|port\.|pos\.|pr\.|prep\.|Pres\.|Prof\.|PROF\.|prop\.|prot\.|psicol\.|pt\.|q\.c\.|Q\.c\.|q\.c\.|Q\.c\.|qc\.|Qc\.|qc\.|Qc\.|Rag\.|rag\.|reg\.|Reg\.|relig\.|Rev\.|rum\.|S\.|S\.E\.|S\.p\.a\.|S\.p\.A\.|S\.r\.l\.|scad\.|scient\.|sec\.|Set\.|Sig\.|sig\.|sin\.|sing\.|sl\.|slov\.|sociol\.|sogg\.|sost\.|sp\.|st\.|stat\.|sved\.|Tav\.|ted\.|trad\.|U\.O\.|ungh\.|V\.|V\:|ver\.|Ver\.|vers\.|Vers\.|volg\.|Z\.I\.|Z\.l\.|zool\.)</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b[\d]+\.</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(a\.|a\.C\.|A\.O\.|A\.O\.U\.|abbr\.|accr\.|aer\.|aff\.|agg\.|Ago\.|agr\.|All\.|all'art\.|all'Art\.|amer\.|Amm\.|anat\.|ant\.|antic\.|antiquar\.|App\.|Apr\.|ar\.|arch\.|archeol\.|art\.|Art\.|art\.|artig\.|Artt\.|artt\.|ass\.|astrol\.|atron\.|austral\.|aw\.|Aw\.|aw\.|Aw\.|aw\.|B\.|babil\.|biol\.|bot\.|bret\.|c\.a\.p\.|C\.A\.P\.|c\.a\.p\.|C\.A\.P\.|ca\.|Ca\.|ca\.|Ca\.|Cap\.|Card\.|celt\.|cfr\.|chim\.|chir\.|Cil\.|cin\.|cit\.|Cod\.|com\.|comm\.|Comm\.|comm\.|Comm\.|compl\.|concl\.|cond\.|cong\.|congv\.|cons\.|Coop\.|corr\.|corrisp\.|cuc\.|d\.C\.|D\.L\.|D\.M\.|D\.P\.G\.R\.|dan\.|dell'art\.|dell'Art\.|dell'art\.|deriv\.|Dic\.|dim\.|dir\.|Dir\.|dispr\.|Dott\.|dott\.|Dr\.|dr\.|ecc\.|eccl\.|econ\.|ed\.|edil\.|egiz\.|es\.|escl\.|esq\.|et|etc\.|euf\.|eur\.|f\.|fam\.|Feb\.|fig\.|filos\.|fis\.|fl\.|fr\.|G\.C\.P\.|Gen\.|germ\.|giapp\.|giorn\.|Giu\.|got\.|gr\.|gramm\.|I\:|ibid\.|id\.|imperat\.|imperf\.|impers\.|Ind\.|inf\.|Ing\.|ingl\.|interr\.|intr\.|irl\.|isl\.|it\.|L\.|L\.R\.|lat\.|Lgs\.|Lug\.|m\.|Mag\.|mar\.|mat\.|max\.|mecc\.|med\.|mil\.|min\.|Mons\.|mus\.|N\.|n\.|N\.|n\.|neg\.|neol\.|norm\.|norv\.|Nov\.|nt\.|nucl\.|ogg\.|ol\.|omon\.|On\.|ON\.|orient\.|OTT\.|Ott\.|pass\.|pl\.|pol\.|pop\.|port\.|pos\.|pr\.|prep\.|Pres\.|Prof\.|PROF\.|prop\.|prot\.|psicol\.|pt\.|q\.c\.|Q\.c\.|q\.c\.|Q\.c\.|qc\.|Qc\.|qc\.|Qc\.|Rag\.|rag\.|reg\.|Reg\.|relig\.|Rev\.|rum\.|S\.|S\.E\.|S\.p\.a\.|S\.p\.A\.|S\.r\.l\.|scad\.|scient\.|sec\.|Set\.|Sig\.|sig\.|sin\.|sing\.|sl\.|slov\.|sociol\.|sogg\.|sost\.|sp\.|st\.|stat\.|sved\.|Tav\.|ted\.|trad\.|U\.O\.|ungh\.|V\.|V\:|ver\.|Ver\.|vers\.|Vers\.|volg\.|Z\.I\.|Z\.l\.|zool\.)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(cell\.|Cell\.|p\.|P\.|Pag\.|pag\.|tel\.|Tel\.|pagg\.)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(\p{Lu}|\p{Ll})\.</beforebreak>
+		<afterbreak>[\s]+\d</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+('|"|‚|\(|„|«)[\s]*\p{Lu}</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+('|"|‚|\(|„|«)[\s]*[\d]</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)[\s]*(\)|'|"|‘|“|»)</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)[\s]*(\)|'|"|‘|“|»)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+</languagerule>
+</languagerules>
+<maprules>
+	<maprule maprulename="Default">
+		<languagemap languagepattern="it.*" languagerulename="Italian" />
+</maprule>
+</maprules>
+</body>
+</srx>

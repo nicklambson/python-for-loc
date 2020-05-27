@@ -1,0 +1,133 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE srx PUBLIC "-//SRX//DTD SRX//EN" "srx.dtd">
+<!--CREATOR:MEMOQ--><!--SRXTYPE:OPTIMIZED-->
+<srx version="1.0">
+<header segmentsubflows="yes">
+	<formathandle type="start" include="no" />
+	<formathandle type="end" include="yes" />
+	<formathandle type="isolated" include="yes" />
+</header>
+<body>
+<languagerules>
+<languagerule languagerulename="German">
+	<rule break="no">
+		<beforebreak>\b(a\. D\.|a\. M\.|a\. Rh\.|a\.a\.O\.|a\.D\.|a\.M\.|a\.Rh\.|Abb\.|Abf\.|Abh\.|Abk\.|Abl\.|Abo\.|Abs\.|Abt\.|abzgl\.|Adr\.|AktZ\.|allg\.|am\.|amtl\.|Anh\.|Ank\.|Anl\.|Anm\.|anschl\.|Anz\.|Art\.|Aufl\.|autom\.|b\.|b\.w\.|Bd\.|beil\.|Bem\.|benutzerdef\.|bes\.|Best\.\-Nr\.|Betr\.|Bez\.|Bhf\.|bspw\.|Bst\.|bzgl\.|bzw\.|ca\.|CHF|Chr\.|Co\.|d\.|d\. M\.|d\.h\.|D\.h\.\:|d\.M\.|d\. M\.|ders\.|dgl\.|Di\.|dies\.|Dipl\.|Dipl\.\-Ing\.|Dipl\.\-Kfm\.|Dir\.|Diss\.|Div\.|Do\.|Dr\.|Dr\.med\.|dt\.|Dtzd\.|E\.|e\. G\.|e\.G\.|e\. U\.|e\.U\.|e\. V\.|e\.V\.|e\.Wz\.|ebd\.|ehem\.|einschl\.|empf\.|entspr\.|erw\.|etc\.|EUR|ev\.|evtl\.|excl\.|exkl\.|f\.|ff\.|F\.f\.|Fa\.|Fam\.|ff\.|Ffm\.|Fig\.|Fn\.|Forts\.|Forts\.f\.|Fr\.|Frl\.|frz\.|geb\.|Gebr\.|gedr\.|gegr\.|gek\.|Ges\.|gesch\.|gest\.|gez\.|ggf\.|ggfs\.|gl\.M\.|h\.M\.|Hbf\.|Horiz\.|hpts\.|Hptst\.|Hr\.|Hrn\.|Hrsg\.|i\.|i\. d\. R\.|i\. J\.|i\. V\.|i\.A\.|i\.b\.|i\.d\. R\.|i\.d\.R\.|i\.e\.S\.|i\.f\.|i\.H\.|i\.J\.|i\.R\.|i\.S\.|i\.V\.|i\.V\.m\.|i\.w\.S\.|incl\.|Indiv\.|Ing\.|Inh\.|inkl\.|Innerdt\.|insb\.|Int\.|jew\.|Jh\.|jhrl\.|jur\.|K\.o\.|k\.u\.k\.|Kap\.|kath\.|kfm\.|Kfz\.|kgl\.|Kl\.|led\.|lfd\.|lit\.|Lok\.|lt\.|m\. W\.|m\.a\.W\.|m\.E\.|m\.W\.|m\.w\.H\.|max\.|Mi\.|Mia\.|min\.|mind\.|Mio\.|Mo\.|möbl\.|Mr\.|Mrd\.|Mrs\.|Ms\.|mtl\.|MwSt\.|N\.|n\.Chr\.|n\.u\.Z\.|näml\.|Nr\.|o\.|o\. g\.|o\.B\.|o\.g\.|Obb\.|od\.|p\.Adr\.|Pfd\.|Pl\.|Prof\.|r\.|r\.k\.|r\.\-k\.|Randnr\.|Rdn\.|Reg\.\-Bez\.|rel\.|resp\.|rev\.|Rn\.|röm\.|röm\.\-kath\.|Rp\.|Rs\.|Rz\.|S\.|s\. a\.|s\.a\.|s\.o\.|s\.u\.|Sa\.|schles\.|schwäb\.|schweiz\.|sh\.|So\.|sog\.|St\.|Str\.|südd\.|Tab\.|tägl\.|Tel\.|Tsd\.|u\.|u\.a\.|u\.ä\.|u\.a\.m\.|u\.A\.w\.g\.|u\.U\.|u\.v\.a\.|u\.v\.a\. m|u\.v\.a\. m\.|u\.v\.a\.m\.|unterst\.|usw\.|übersp\.|v\.|V\.|v\.a\.|v\.Chr\.|v\.H\.|v\.R\.w\.|v\.T\.|v\.u\.Z\.|Verf\.|verh\.|versch\.|Vertik\.|verw\.|vgl\.|voraussichtl\.|vorm\.|wiss\.|Wiss\.|Z\.|z\. B\.|z\. Zt|z\. Zt\.|z\.B\.|z\.B\.\:|z\.B\:|z\.Bsp\.|z\.Hd\.|z\.T\.|z\.Zt\.|Zi\.|Ziff\.|Ztr\.|zur\.|zus\.|zw\.|zzgl\.|I\.|II\.|III\.|IV\.|V\.|VI\.|VII\.|VIII\.|IX\.|X\.|L\.|D\.|C\.|M\.)</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(\p{Lu}|\p{Ll})\.</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>[\d]\.</beforebreak>
+		<afterbreak>[\s]+(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|Jänner|Jan\.|Feb\.|Apr\.|Aug\.|Sept\.|Okt\.|Nov\.|Dez\.|Jän\.|Senat|Kammer|Jahrhundert|Verordnung)</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>a\.</beforebreak>
+		<afterbreak> M\.[\s]+</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>a\.</beforebreak>
+		<afterbreak> D\.[\s]+</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>d\.</beforebreak>
+		<afterbreak> M\.[\s]+</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>a\.</beforebreak>
+		<afterbreak> Rh\.[\s]+</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>e\.</beforebreak>
+		<afterbreak> V\.[\s]+</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>i\.</beforebreak>
+		<afterbreak> J\.[\s]+</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>i\.</beforebreak>
+		<afterbreak> V\.[\s]+</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>m\.</beforebreak>
+		<afterbreak> W\.[\s]+</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>z\.</beforebreak>
+		<afterbreak> B\.[\s]+</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>('|"|‚|\(|„)[^.?!]*\:</beforebreak>
+		<afterbreak>[\s]+\p{Lu}[^.?!]*(\)|'|"|‘|“)</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(a\. D\.|a\. M\.|a\. Rh\.|a\.a\.O\.|a\.D\.|a\.M\.|a\.Rh\.|Abb\.|Abf\.|Abh\.|Abk\.|Abl\.|Abo\.|Abs\.|Abt\.|abzgl\.|Adr\.|AktZ\.|allg\.|am\.|amtl\.|Anh\.|Ank\.|Anl\.|Anm\.|anschl\.|Anz\.|Art\.|Aufl\.|autom\.|b\.|b\.w\.|Bd\.|beil\.|Bem\.|benutzerdef\.|bes\.|Best\.\-Nr\.|Betr\.|Bez\.|Bhf\.|bspw\.|Bst\.|bzgl\.|bzw\.|ca\.|CHF|Chr\.|Co\.|d\.|d\. M\.|d\.h\.|D\.h\.\:|d\.M\.|d\. M\.|ders\.|dgl\.|Di\.|dies\.|Dipl\.|Dipl\.\-Ing\.|Dipl\.\-Kfm\.|Dir\.|Diss\.|Div\.|Do\.|Dr\.|Dr\.med\.|dt\.|Dtzd\.|E\.|e\. G\.|e\.G\.|e\. U\.|e\.U\.|e\. V\.|e\.V\.|e\.Wz\.|ebd\.|ehem\.|einschl\.|empf\.|entspr\.|erw\.|etc\.|EUR|ev\.|evtl\.|excl\.|exkl\.|f\.|ff\.|F\.f\.|Fa\.|Fam\.|ff\.|Ffm\.|Fig\.|Fn\.|Forts\.|Forts\.f\.|Fr\.|Frl\.|frz\.|geb\.|Gebr\.|gedr\.|gegr\.|gek\.|Ges\.|gesch\.|gest\.|gez\.|ggf\.|ggfs\.|gl\.M\.|h\.M\.|Hbf\.|Horiz\.|hpts\.|Hptst\.|Hr\.|Hrn\.|Hrsg\.|i\.|i\. d\. R\.|i\. J\.|i\. V\.|i\.A\.|i\.b\.|i\.d\. R\.|i\.d\.R\.|i\.e\.S\.|i\.f\.|i\.H\.|i\.J\.|i\.R\.|i\.S\.|i\.V\.|i\.V\.m\.|i\.w\.S\.|incl\.|Indiv\.|Ing\.|Inh\.|inkl\.|Innerdt\.|insb\.|Int\.|jew\.|Jh\.|jhrl\.|jur\.|K\.o\.|k\.u\.k\.|Kap\.|kath\.|kfm\.|Kfz\.|kgl\.|Kl\.|led\.|lfd\.|lit\.|Lok\.|lt\.|m\. W\.|m\.a\.W\.|m\.E\.|m\.W\.|m\.w\.H\.|max\.|Mi\.|Mia\.|min\.|mind\.|Mio\.|Mo\.|möbl\.|Mr\.|Mrd\.|Mrs\.|Ms\.|mtl\.|MwSt\.|N\.|n\.Chr\.|n\.u\.Z\.|näml\.|Nr\.|o\.|o\. g\.|o\.B\.|o\.g\.|Obb\.|od\.|p\.Adr\.|Pfd\.|Pl\.|Prof\.|r\.|r\.k\.|r\.\-k\.|Randnr\.|Rdn\.|Reg\.\-Bez\.|rel\.|resp\.|rev\.|Rn\.|röm\.|röm\.\-kath\.|Rp\.|Rs\.|Rz\.|S\.|s\. a\.|s\.a\.|s\.o\.|s\.u\.|Sa\.|schles\.|schwäb\.|schweiz\.|sh\.|So\.|sog\.|St\.|Str\.|südd\.|Tab\.|tägl\.|Tel\.|Tsd\.|u\.|u\.a\.|u\.ä\.|u\.a\.m\.|u\.A\.w\.g\.|u\.U\.|u\.v\.a\.|u\.v\.a\. m|u\.v\.a\. m\.|u\.v\.a\.m\.|unterst\.|usw\.|übersp\.|v\.|V\.|v\.a\.|v\.Chr\.|v\.H\.|v\.R\.w\.|v\.T\.|v\.u\.Z\.|Verf\.|verh\.|versch\.|Vertik\.|verw\.|vgl\.|voraussichtl\.|vorm\.|wiss\.|Wiss\.|Z\.|z\. B\.|z\. Zt|z\. Zt\.|z\.B\.|z\.B\.\:|z\.B\:|z\.Bsp\.|z\.Hd\.|z\.T\.|z\.Zt\.|Zi\.|Ziff\.|Ztr\.|zur\.|zus\.|zw\.|zzgl\.|I\.|II\.|III\.|IV\.|V\.|VI\.|VII\.|VIII\.|IX\.|X\.|L\.|D\.|C\.|M\.)</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(\p{Lu}|\p{Ll})\.</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>('|"|‚|\(|„)[^.?!]*\:</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)[^.?!]*(\)|'|"|‘|“)</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b[\d]+\.</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(a\. D\.|a\. M\.|a\. Rh\.|a\.a\.O\.|a\.D\.|a\.M\.|a\.Rh\.|Abb\.|Abf\.|Abh\.|Abk\.|Abl\.|Abo\.|Abs\.|Abt\.|abzgl\.|Adr\.|AktZ\.|allg\.|am\.|amtl\.|Anh\.|Ank\.|Anl\.|Anm\.|anschl\.|Anz\.|Art\.|Aufl\.|autom\.|b\.|b\.w\.|Bd\.|beil\.|Bem\.|benutzerdef\.|bes\.|Best\.\-Nr\.|Betr\.|Bez\.|Bhf\.|bspw\.|Bst\.|bzgl\.|bzw\.|ca\.|CHF|Chr\.|Co\.|d\.|d\. M\.|d\.h\.|D\.h\.\:|d\.M\.|d\. M\.|ders\.|dgl\.|Di\.|dies\.|Dipl\.|Dipl\.\-Ing\.|Dipl\.\-Kfm\.|Dir\.|Diss\.|Div\.|Do\.|Dr\.|Dr\.med\.|dt\.|Dtzd\.|E\.|e\. G\.|e\.G\.|e\. U\.|e\.U\.|e\. V\.|e\.V\.|e\.Wz\.|ebd\.|ehem\.|einschl\.|empf\.|entspr\.|erw\.|etc\.|EUR|ev\.|evtl\.|excl\.|exkl\.|f\.|ff\.|F\.f\.|Fa\.|Fam\.|ff\.|Ffm\.|Fig\.|Fn\.|Forts\.|Forts\.f\.|Fr\.|Frl\.|frz\.|geb\.|Gebr\.|gedr\.|gegr\.|gek\.|Ges\.|gesch\.|gest\.|gez\.|ggf\.|ggfs\.|gl\.M\.|h\.M\.|Hbf\.|Horiz\.|hpts\.|Hptst\.|Hr\.|Hrn\.|Hrsg\.|i\.|i\. d\. R\.|i\. J\.|i\. V\.|i\.A\.|i\.b\.|i\.d\. R\.|i\.d\.R\.|i\.e\.S\.|i\.f\.|i\.H\.|i\.J\.|i\.R\.|i\.S\.|i\.V\.|i\.V\.m\.|i\.w\.S\.|incl\.|Indiv\.|Ing\.|Inh\.|inkl\.|Innerdt\.|insb\.|Int\.|jew\.|Jh\.|jhrl\.|jur\.|K\.o\.|k\.u\.k\.|Kap\.|kath\.|kfm\.|Kfz\.|kgl\.|Kl\.|led\.|lfd\.|lit\.|Lok\.|lt\.|m\. W\.|m\.a\.W\.|m\.E\.|m\.W\.|m\.w\.H\.|max\.|Mi\.|Mia\.|min\.|mind\.|Mio\.|Mo\.|möbl\.|Mr\.|Mrd\.|Mrs\.|Ms\.|mtl\.|MwSt\.|N\.|n\.Chr\.|n\.u\.Z\.|näml\.|Nr\.|o\.|o\. g\.|o\.B\.|o\.g\.|Obb\.|od\.|p\.Adr\.|Pfd\.|Pl\.|Prof\.|r\.|r\.k\.|r\.\-k\.|Randnr\.|Rdn\.|Reg\.\-Bez\.|rel\.|resp\.|rev\.|Rn\.|röm\.|röm\.\-kath\.|Rp\.|Rs\.|Rz\.|S\.|s\. a\.|s\.a\.|s\.o\.|s\.u\.|Sa\.|schles\.|schwäb\.|schweiz\.|sh\.|So\.|sog\.|St\.|Str\.|südd\.|Tab\.|tägl\.|Tel\.|Tsd\.|u\.|u\.a\.|u\.ä\.|u\.a\.m\.|u\.A\.w\.g\.|u\.U\.|u\.v\.a\.|u\.v\.a\. m|u\.v\.a\. m\.|u\.v\.a\.m\.|unterst\.|usw\.|übersp\.|v\.|V\.|v\.a\.|v\.Chr\.|v\.H\.|v\.R\.w\.|v\.T\.|v\.u\.Z\.|Verf\.|verh\.|versch\.|Vertik\.|verw\.|vgl\.|voraussichtl\.|vorm\.|wiss\.|Wiss\.|Z\.|z\. B\.|z\. Zt|z\. Zt\.|z\.B\.|z\.B\.\:|z\.B\:|z\.Bsp\.|z\.Hd\.|z\.T\.|z\.Zt\.|Zi\.|Ziff\.|Ztr\.|zur\.|zus\.|zw\.|zzgl\.|I\.|II\.|III\.|IV\.|V\.|VI\.|VII\.|VIII\.|IX\.|X\.|L\.|D\.|C\.|M\.)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(Nr\.|s\.)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(\p{Lu}|\p{Ll})\.</beforebreak>
+		<afterbreak>[\s]+\d</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>('|"|‚|\(|„)[^.?!]*\:</beforebreak>
+		<afterbreak>[\s]+\d[^.?!]*(\)|'|"|‘|“)</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+('|"|‚|\(|„)[\s]*\p{Lu}</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+('|"|‚|\(|„)[\s]*[\d]</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)[\s]*(\)|'|"|‘|“)</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)[\s]*(\)|'|"|‘|“)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+</languagerule>
+</languagerules>
+<maprules>
+	<maprule maprulename="Default">
+		<languagemap languagepattern="de.*" languagerulename="German" />
+</maprule>
+</maprules>
+</body>
+</srx>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE srx PUBLIC "-//SRX//DTD SRX//EN" "srx.dtd">
+<!--CREATOR:MEMOQ--><!--SRXTYPE:OPTIMIZED-->
+<srx version="1.0">
+<header segmentsubflows="yes">
+	<formathandle type="start" include="no" />
+	<formathandle type="end" include="yes" />
+	<formathandle type="isolated" include="yes" />
+</header>
+<body>
+<languagerules>
+<languagerule languagerulename="Portuguese (Portugal)">
+	<rule break="no">
+		<beforebreak>\b(\p{Lu}|\p{Ll})\.</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(a\.C\.|ad lib\.|Ad lib\.|a\.m\.|art°\.|Art°\.|Av\.|cap\.|Cap\.|D\.|d\.C\.|Dr\.|Dra\.|e\.g\.|E\.g\.|eng\.|Eng\.|etc\.|ex\.|Ex\.|Exmo\.|Exma\.|Fax\.|fax\.|fem\.|fig\.|Fig\.|Fl\.|fl\.|Freg\.|h\.|H\.|ibid\.|Ibid\.|id\.|Id\.|i\.e\.|Jr\.|Lda\.|masc\.|Mons\.|ms\.|mto\.|Mto\.|N°\.|n°\.|obg°\.|Obg°\.|p\.|P\.|Pg\.|pg\.|pág\.|Pág\.|Pe\.|P\.ex\.|p\.ex\.|p\.f\.|P\.f\.|p\.m\.|pp\.|Pp\.|pov\.|Pov\.|Prof\.|prof\.|R\.|Rev\.|Revdo\.|S\.|S\. Ema\.|S\. Exa\.|s\.f\.f\.|S\.f\.f\.|Sto\.|Sta\.|tel\.|Tel\.|tlm\.|Tlm\.|v\.|V\.|vd\.|Vd\.|v\.g\.|V\.g\.|vol\.|Vol\.|Jan\.|Fev\.|Mar\.|Abr\.|Jun\.|Jul\.|Ago\.|Set\.|Out\.|Nov\.|Dez\.|jan\.|fev\.|mar\.|abr\.|jun\.|jul\.|ago\.|set\.|out\.|nov\.|dez\.|Sáb\.|sáb\.|dom\.|Dom\.)</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(\p{Lu}|\p{Ll})\.</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(a\.C\.|ad lib\.|Ad lib\.|a\.m\.|art°\.|Art°\.|Av\.|cap\.|Cap\.|D\.|d\.C\.|Dr\.|Dra\.|e\.g\.|E\.g\.|eng\.|Eng\.|etc\.|ex\.|Ex\.|Exmo\.|Exma\.|Fax\.|fax\.|fem\.|fig\.|Fig\.|Fl\.|fl\.|Freg\.|h\.|H\.|ibid\.|Ibid\.|id\.|Id\.|i\.e\.|Jr\.|Lda\.|masc\.|Mons\.|ms\.|mto\.|Mto\.|N°\.|n°\.|obg°\.|Obg°\.|p\.|P\.|Pg\.|pg\.|pág\.|Pág\.|Pe\.|P\.ex\.|p\.ex\.|p\.f\.|P\.f\.|p\.m\.|pp\.|Pp\.|pov\.|Pov\.|Prof\.|prof\.|R\.|Rev\.|Revdo\.|S\.|S\. Ema\.|S\. Exa\.|s\.f\.f\.|S\.f\.f\.|Sto\.|Sta\.|tel\.|Tel\.|tlm\.|Tlm\.|v\.|V\.|vd\.|Vd\.|v\.g\.|V\.g\.|vol\.|Vol\.|Jan\.|Fev\.|Mar\.|Abr\.|Jun\.|Jul\.|Ago\.|Set\.|Out\.|Nov\.|Dez\.|jan\.|fev\.|mar\.|abr\.|jun\.|jul\.|ago\.|set\.|out\.|nov\.|dez\.|Sáb\.|sáb\.|dom\.|Dom\.)</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b[\d]+\.</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(a\.C\.|ad lib\.|Ad lib\.|a\.m\.|art°\.|Art°\.|Av\.|cap\.|Cap\.|D\.|d\.C\.|Dr\.|Dra\.|e\.g\.|E\.g\.|eng\.|Eng\.|etc\.|ex\.|Ex\.|Exmo\.|Exma\.|Fax\.|fax\.|fem\.|fig\.|Fig\.|Fl\.|fl\.|Freg\.|h\.|H\.|ibid\.|Ibid\.|id\.|Id\.|i\.e\.|Jr\.|Lda\.|masc\.|Mons\.|ms\.|mto\.|Mto\.|N°\.|n°\.|obg°\.|Obg°\.|p\.|P\.|Pg\.|pg\.|pág\.|Pág\.|Pe\.|P\.ex\.|p\.ex\.|p\.f\.|P\.f\.|p\.m\.|pp\.|Pp\.|pov\.|Pov\.|Prof\.|prof\.|R\.|Rev\.|Revdo\.|S\.|S\. Ema\.|S\. Exa\.|s\.f\.f\.|S\.f\.f\.|Sto\.|Sta\.|tel\.|Tel\.|tlm\.|Tlm\.|v\.|V\.|vd\.|Vd\.|v\.g\.|V\.g\.|vol\.|Vol\.|Jan\.|Fev\.|Mar\.|Abr\.|Jun\.|Jul\.|Ago\.|Set\.|Out\.|Nov\.|Dez\.|jan\.|fev\.|mar\.|abr\.|jun\.|jul\.|ago\.|set\.|out\.|nov\.|dez\.|Sáb\.|sáb\.|dom\.|Dom\.)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b()</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(\p{Lu}|\p{Ll})\.</beforebreak>
+		<afterbreak>[\s]+\d</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+('|"|‚|\(|„)[\s]*\p{Lu}</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+('|"|‚|\(|„)[\s]*[\d]</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)[\s]*(\)|'|"|‘|“)</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)[\s]*(\)|'|"|‘|“)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+</languagerule>
+</languagerules>
+<maprules>
+	<maprule maprulename="Default">
+		<languagemap languagepattern="pt-pt.*" languagerulename="Portuguese (Portugal)" />
+</maprule>
+</maprules>
+</body>
+</srx>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE srx PUBLIC "-//SRX//DTD SRX//EN" "srx.dtd">
+<!--CREATOR:MEMOQ-->
+<!--SRXTYPE:OPTIMIZED-->
+<srx version="1.0">
+	<header segmentsubflows="yes">
+		<formathandle type="start" include="no" />
+		<formathandle type="end" include="yes" />
+		<formathandle type="isolated" include="yes" />
+	</header>
+	<body>
+		<languagerules>
+			<languagerule languagerulename="English (United States)">
+				<rule break="no">
+					<beforebreak>\b(a\.m\.|al\.|approx\.|Approx\.|Art\.|B\.F\.|Bldg\.|Brig\.|Bs\.|c\. f\.|C\.A\.|C\.E\.O\.|C\.F\.O\.|C\.P\.A\.|C\.V\.|ca\.|Ca\.|cap\.|Capt\.|cf\.|Cia\.|Cmnd\.|co\.|Co\.|Col\.|Corp\.|CU\. FT\.|cu\. ft\.|CU\. IN\.|cu\. in\.|CU\.FT\.|cu\.ft\.|CU\.IN\.|cu\.in\.|D\.C\.|Dept\.|Dr\.|e\. g\.|e\.g\.|E\. g\.|ed\.|Ed\.|Eds\.|Eg\.|eg\.|Elec\.|Esq\.|Ext\.|fig\.|Fig\.|Figs\.|figs\.|Ft\.|Gen\.|govt\.|Govt\.|Hon\.|H\.O\.P\.|i\. e\.|I\.D\.|i\.e\.|Id\.|Ie\.|ie\.|Inc\.|incl\.|Incl\.|J\. P\.|J\.P\.|Jr\.|lb\.|lbs\.|LB\.|Lt\.|Ltd\.|Ltda\.|M\.D\.|Maj\.|Messrs\.|min\.|Mr\.|Mrs\.|Ms\.|Mt\.|no\.|No\.|Nos\.|NYSE\:|OZ\.|oz\.|p\.|P\.|p\.m\.|P\.O\.|par\.|para\.|pars\.|PC\.|pc\.|Ph\.D\.|pp\.|Pres\.|Prof\.|pt\.|PT\.|QT\.|qt\.|qtd\.|Reg\.|reg\.|Rep\.|Rev\.|Revd\.|S\.A\.|S\.R\.L\.|S\.|Sen\.|Sgt\.|Sq\.|sq\. ft\.|SQ\. FT\.|sq\.ft\.|SQ\.FT\.|Sr\.|St\.|U\. S\.|U\. S\.|U\.K\.|U\.N\.|U\.S\.|U\.S\.A\.|v\.|V\.P\.|ver\.|viz\.|Viz\.|vol\.|Vol\.|vols\.|Vols\.|vs\.|Yd\.|yd\.|Yds\.|yds\.|Jan\.|Feb\.|Mar\.|Apr\.|Jun\.|Jul\.|Aug\.|Sept\.|Oct\.|Nov\.|Dec\.|I\.|II\.|III\.|IV\.|V\.|VI\.|VII\.|VIII\.|IX\.|X\.|L\.|D\.|C\.|M\.)</beforebreak>
+					<afterbreak>[\s]+\p{Lu}</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>\b\p{Lu}\.</beforebreak>
+					<afterbreak>[\s]+\p{Lu}</afterbreak>
+				</rule>
+				<rule break="yes">
+					<beforebreak>(\.|\?|\!|\:)</beforebreak>
+					<afterbreak>[\s]+\p{Lu}</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>\b(a\.m\.|al\.|approx\.|Approx\.|Art\.|B\.F\.|Bldg\.|Brig\.|Bs\.|c\. f\.|C\.A\.|C\.E\.O\.|C\.F\.O\.|C\.P\.A\.|C\.V\.|ca\.|Ca\.|cap\.|Capt\.|cf\.|Cia\.|Cmnd\.|co\.|Co\.|Col\.|Corp\.|CU\. FT\.|cu\. ft\.|CU\. IN\.|cu\. in\.|CU\.FT\.|cu\.ft\.|CU\.IN\.|cu\.in\.|D\.C\.|Dept\.|Dr\.|e\. g\.|e\.g\.|E\. g\.|ed\.|Ed\.|Eds\.|Eg\.|eg\.|Elec\.|Esq\.|Ext\.|fig\.|Fig\.|Figs\.|figs\.|Ft\.|Gen\.|govt\.|Govt\.|Hon\.|H\.O\.P\.|i\. e\.|I\.D\.|i\.e\.|Id\.|Ie\.|ie\.|Inc\.|incl\.|Incl\.|J\. P\.|J\.P\.|Jr\.|lb\.|lbs\.|LB\.|Lt\.|Ltd\.|Ltda\.|M\.D\.|Maj\.|Messrs\.|min\.|Mr\.|Mrs\.|Ms\.|Mt\.|no\.|No\.|Nos\.|NYSE\:|OZ\.|oz\.|p\.|P\.|p\.m\.|P\.O\.|par\.|para\.|pars\.|PC\.|pc\.|Ph\.D\.|pp\.|Pres\.|Prof\.|pt\.|PT\.|QT\.|qt\.|qtd\.|Reg\.|reg\.|Rep\.|Rev\.|Revd\.|S\.A\.|S\.R\.L\.|S\.|Sen\.|Sgt\.|Sq\.|sq\. ft\.|SQ\. FT\.|sq\.ft\.|SQ\.FT\.|Sr\.|St\.|U\. S\.|U\. S\.|U\.K\.|U\.N\.|U\.S\.|U\.S\.A\.|v\.|V\.P\.|ver\.|viz\.|Viz\.|vol\.|Vol\.|vols\.|Vols\.|vs\.|Yd\.|yd\.|Yds\.|yds\.|Jan\.|Feb\.|Mar\.|Apr\.|Jun\.|Jul\.|Aug\.|Sept\.|Oct\.|Nov\.|Dec\.|I\.|II\.|III\.|IV\.|V\.|VI\.|VII\.|VIII\.|IX\.|X\.|L\.|D\.|C\.|M\.)</beforebreak>
+					<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>\b\p{Lu}\.</beforebreak>
+					<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+				</rule>
+				<rule break="yes">
+					<beforebreak>(\.|\?|\!|\:)</beforebreak>
+					<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>\b[\d]+\.</beforebreak>
+					<afterbreak>[\s]+[\d]</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>\b(a\.m\.|al\.|approx\.|Approx\.|Art\.|B\.F\.|Bldg\.|Brig\.|Bs\.|c\. f\.|C\.A\.|C\.E\.O\.|C\.F\.O\.|C\.P\.A\.|C\.V\.|ca\.|Ca\.|cap\.|Capt\.|cf\.|Cia\.|Cmnd\.|co\.|Co\.|Col\.|Corp\.|CU\. FT\.|cu\. ft\.|CU\. IN\.|cu\. in\.|CU\.FT\.|cu\.ft\.|CU\.IN\.|cu\.in\.|D\.C\.|Dept\.|Dr\.|e\. g\.|e\.g\.|E\. g\.|ed\.|Ed\.|Eds\.|Eg\.|eg\.|Elec\.|Esq\.|Ext\.|fig\.|Fig\.|Figs\.|figs\.|Ft\.|Gen\.|govt\.|Govt\.|Hon\.|H\.O\.P\.|i\. e\.|I\.D\.|i\.e\.|Id\.|Ie\.|ie\.|Inc\.|incl\.|Incl\.|J\. P\.|J\.P\.|Jr\.|lb\.|lbs\.|LB\.|Lt\.|Ltd\.|Ltda\.|M\.D\.|Maj\.|Messrs\.|min\.|Mr\.|Mrs\.|Ms\.|Mt\.|no\.|No\.|Nos\.|NYSE\:|OZ\.|oz\.|p\.|P\.|p\.m\.|P\.O\.|par\.|para\.|pars\.|PC\.|pc\.|Ph\.D\.|pp\.|Pres\.|Prof\.|pt\.|PT\.|QT\.|qt\.|qtd\.|Reg\.|reg\.|Rep\.|Rev\.|Revd\.|S\.A\.|S\.R\.L\.|S\.|Sen\.|Sgt\.|Sq\.|sq\. ft\.|SQ\. FT\.|sq\.ft\.|SQ\.FT\.|Sr\.|St\.|U\. S\.|U\. S\.|U\.K\.|U\.N\.|U\.S\.|U\.S\.A\.|v\.|V\.P\.|ver\.|viz\.|Viz\.|vol\.|Vol\.|vols\.|Vols\.|vs\.|Yd\.|yd\.|Yds\.|yds\.|Jan\.|Feb\.|Mar\.|Apr\.|Jun\.|Jul\.|Aug\.|Sept\.|Oct\.|Nov\.|Dec\.|I\.|II\.|III\.|IV\.|V\.|VI\.|VII\.|VIII\.|IX\.|X\.|L\.|D\.|C\.|M\.)</beforebreak>
+					<afterbreak>[\s]+[\d]</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>\b(est\.|Est\.|col\.|tel\.|Tel\.|Fax\.|fax\.|max\.|p\.|pp\.|Ref\.|No\.)</beforebreak>
+					<afterbreak>[\s]+[\d]</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>\b\p{Lu}\.</beforebreak>
+					<afterbreak>[\s]+[\d]</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>(\(|"|'|“|‘)[^.?!]*\:</beforebreak>
+					<afterbreak>[\s]+\d[^.?!]*(\)|"|'|”|’)</afterbreak>
+				</rule>
+				<rule break="yes">
+					<beforebreak>(\.|\?|\!|\:)</beforebreak>
+					<afterbreak>[\s]+[\d]</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>\s+\p{Lu}\.</beforebreak>
+					<afterbreak>\s+\(Ed.</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>\s+\p{Lu}\.</beforebreak>
+					<afterbreak>\s+\(Eds.</afterbreak>
+				</rule>
+				<rule break="yes">
+					<beforebreak>(\.|\?|\!|\:)</beforebreak>
+					<afterbreak>[\s]+(\(|"|'|“|‘)[\s]*\p{Lu}</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>\s+\p{Lu}\.</beforebreak>
+					<afterbreak>\s+\(\s*\d{4}</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>\s+\p{Lu}\.\s*\p{Lu}\.</beforebreak>
+					<afterbreak>\s+\(\s*\d{4}</afterbreak>
+				</rule>
+				<rule break="no">
+					<beforebreak>\,\p{Lu}\.\s*\p{Lu}\.</beforebreak>
+					<afterbreak>\s+\(\s*\d{4}</afterbreak>
+				</rule>
+				<rule break="yes">
+					<beforebreak>(\.|\?|\!|\:)</beforebreak>
+					<afterbreak>[\s]+(\(|"|'|“|‘)[\s]*[\d]</afterbreak>
+				</rule>
+				<rule break="yes">
+					<beforebreak>(\.|\?|\!|\:)[\s]*(\)|"|'|”|’)</beforebreak>
+					<afterbreak>[\s]+\p{Lu}</afterbreak>
+				</rule>
+				<rule break="yes">
+					<beforebreak>(\.|\?|\!|\:)[\s]*(\)|"|'|”|’)</beforebreak>
+					<afterbreak>[\s]+[\d]</afterbreak>
+				</rule>
+			</languagerule>
+		</languagerules>
+		<maprules>
+			<maprule maprulename="Default">
+				<languagemap languagepattern="en-us.*" languagerulename="English (United States)" />
+			</maprule>
+		</maprules>
+	</body>
+</srx>

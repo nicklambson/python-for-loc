@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE srx PUBLIC "-//SRX//DTD SRX//EN" "srx.dtd">
+<!--CREATOR:MEMOQ--><!--SRXTYPE:OPTIMIZED-->
+<srx version="1.0">
+<header segmentsubflows="yes">
+	<formathandle type="start" include="no" />
+	<formathandle type="end" include="yes" />
+	<formathandle type="isolated" include="yes" />
+</header>
+<body>
+<languagerules>
+<languagerule languagerulename="Spanish">
+	<rule break="no">
+		<beforebreak>\b(\p{Lu}|\p{Ll})\.</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(os\. ed\.|Pres\.|pres\.|Fut\.|fut\.|Pas\. Perf\.|pas\. perf\.|pret\.|Pret\.|V\. Perf\.|V perf\.|V imperf\.|V\. imperf\.|Mod\. Pred\.|Mod pred\.|Mod cond\.|Mod\. Cond\.|Masc\.|Fem\.|Neut\.|Pers\.|Suj\.|Ob\.|Adv\.|Adj\.|Acad\.|Mús\.|Mús acad\.|Esc acad\.|Esc\. Acad\.|Can\. Acad\.|Can acad\.|Rest\. Acad\.|Rest acad\.|Pint\. Acad\.|Pint acad\.|Asist\.|asist\.|Ing\. Grad\. en Arq\.|Doct\. en dif\. Cienc\.|doct en dif cienc\.|Grad\.|Dr\.|Dra\.|dr\.|Prof\.|prof\.|Master en Cienc\.|M\. en Cienc\.|Esp\.|esp\.|univ\.|Univ\.|Grad\. Univ\.|Grad\. univ\.|Ing\. Univ\. Grad\.|ene\.|feb\.|mar\.|abr\.|jun\.|jul\.|ago\.|sep\.|oct\.|nov\.|dic\.|cam\.|call\.|Ubic\. geog\.|Alt\. de mont\.|Ing\.|ing\.|ale\.|fran\.|grieg\.|croa\.|ita\.|húng\.|mac\.|Nad\. esp\.|Aprox\.|aprox\.|de Fab\.|carg\.|S\.A\.|Prop\.|art\.|Art\.|Sr\.|Sra\.|Srita\.|habilit\.|Habilit\.|cop\.|Cop\.|Mat\.|med\.|Med\.|mill\.|Jr\.|Depto\.|Dpto\.|dpto\.|depto\.|Obs\.|pág\.|Pág\.|sim\.|dif\.|cas\.|trad\.|Apell\.|apell\.|apénd\.|Apénd\.|Nº ord\.|Ntra\.|Sra\.)</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(\p{Lu}|\p{Ll})\.</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(os\. ed\.|Pres\.|pres\.|Fut\.|fut\.|Pas\. Perf\.|pas\. perf\.|pret\.|Pret\.|V\. Perf\.|V perf\.|V imperf\.|V\. imperf\.|Mod\. Pred\.|Mod pred\.|Mod cond\.|Mod\. Cond\.|Masc\.|Fem\.|Neut\.|Pers\.|Suj\.|Ob\.|Adv\.|Adj\.|Acad\.|Mús\.|Mús acad\.|Esc acad\.|Esc\. Acad\.|Can\. Acad\.|Can acad\.|Rest\. Acad\.|Rest acad\.|Pint\. Acad\.|Pint acad\.|Asist\.|asist\.|Ing\. Grad\. en Arq\.|Doct\. en dif\. Cienc\.|doct en dif cienc\.|Grad\.|Dr\.|Dra\.|dr\.|Prof\.|prof\.|Master en Cienc\.|M\. en Cienc\.|Esp\.|esp\.|univ\.|Univ\.|Grad\. Univ\.|Grad\. univ\.|Ing\. Univ\. Grad\.|ene\.|feb\.|mar\.|abr\.|jun\.|jul\.|ago\.|sep\.|oct\.|nov\.|dic\.|cam\.|call\.|Ubic\. geog\.|Alt\. de mont\.|Ing\.|ing\.|ale\.|fran\.|grieg\.|croa\.|ita\.|húng\.|mac\.|Nad\. esp\.|Aprox\.|aprox\.|de Fab\.|carg\.|S\.A\.|Prop\.|art\.|Art\.|Sr\.|Sra\.|Srita\.|habilit\.|Habilit\.|cop\.|Cop\.|Mat\.|med\.|Med\.|mill\.|Jr\.|Depto\.|Dpto\.|dpto\.|depto\.|Obs\.|pág\.|Pág\.|sim\.|dif\.|cas\.|trad\.|Apell\.|apell\.|apénd\.|Apénd\.|Nº ord\.|Ntra\.|Sra\.)</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+(memoQ|iPhone|iTunes|iPad|eBay|signoSign)</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b[\d]+\.</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(os\. ed\.|Pres\.|pres\.|Fut\.|fut\.|Pas\. Perf\.|pas\. perf\.|pret\.|Pret\.|V\. Perf\.|V perf\.|V imperf\.|V\. imperf\.|Mod\. Pred\.|Mod pred\.|Mod cond\.|Mod\. Cond\.|Masc\.|Fem\.|Neut\.|Pers\.|Suj\.|Ob\.|Adv\.|Adj\.|Acad\.|Mús\.|Mús acad\.|Esc acad\.|Esc\. Acad\.|Can\. Acad\.|Can acad\.|Rest\. Acad\.|Rest acad\.|Pint\. Acad\.|Pint acad\.|Asist\.|asist\.|Ing\. Grad\. en Arq\.|Doct\. en dif\. Cienc\.|doct en dif cienc\.|Grad\.|Dr\.|Dra\.|dr\.|Prof\.|prof\.|Master en Cienc\.|M\. en Cienc\.|Esp\.|esp\.|univ\.|Univ\.|Grad\. Univ\.|Grad\. univ\.|Ing\. Univ\. Grad\.|ene\.|feb\.|mar\.|abr\.|jun\.|jul\.|ago\.|sep\.|oct\.|nov\.|dic\.|cam\.|call\.|Ubic\. geog\.|Alt\. de mont\.|Ing\.|ing\.|ale\.|fran\.|grieg\.|croa\.|ita\.|húng\.|mac\.|Nad\. esp\.|Aprox\.|aprox\.|de Fab\.|carg\.|S\.A\.|Prop\.|art\.|Art\.|Sr\.|Sra\.|Srita\.|habilit\.|Habilit\.|cop\.|Cop\.|Mat\.|med\.|Med\.|mill\.|Jr\.|Depto\.|Dpto\.|dpto\.|depto\.|Obs\.|pág\.|Pág\.|sim\.|dif\.|cas\.|trad\.|Apell\.|apell\.|apénd\.|Apénd\.|Nº ord\.|Ntra\.|Sra\.)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b()</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="no">
+		<beforebreak>\b(\p{Lu}|\p{Ll})\.</beforebreak>
+		<afterbreak>[\s]+\d</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+('|"|‚|\(|„)[\s]*\p{Lu}</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)</beforebreak>
+		<afterbreak>[\s]+('|"|‚|\(|„)[\s]*[\d]</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)[\s]*(\)|'|"|‘|“)</beforebreak>
+		<afterbreak>[\s]+\p{Lu}</afterbreak>
+	</rule>
+	<rule break="yes">
+		<beforebreak>(\.|\?|\!|\:)[\s]*(\)|'|"|‘|“)</beforebreak>
+		<afterbreak>[\s]+[\d]</afterbreak>
+	</rule>
+</languagerule>
+</languagerules>
+<maprules>
+	<maprule maprulename="Default">
+		<languagemap languagepattern="es.*" languagerulename="Spanish" />
+</maprule>
+</maprules>
+</body>
+</srx>
